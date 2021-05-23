@@ -1,4 +1,5 @@
 # BMA: Bare Minimum API
+#### Implemenation of a minimal REST API that returns EPOCH timestamp. The implementation is done in go-lang. The app is cloud native and ready to run on K8s cluster.
 
 ## Prerequisite's
 ```
