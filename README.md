@@ -25,7 +25,7 @@ docker tag mohnishanand/bma:latest mohnishanand/bma:$date && docker push mohnish
 Make sure you have built the docker image and have it on your local machine.
 git clone https://github.com/mohnishanandinc/bare-minimum-api.git && cd bare-minimum-api 
 docker build . -t mohnishanand/bma
-docker run -p 8080:8080h mohnishanand/bma:latest
+docker run -p 8080:8080 mohnishanand/bma:latest
 ``` 
 ## Access the timestamp API
 ```
