@@ -18,8 +18,7 @@ helm upgrade -i app . -f values.yaml -n coalationinc --debug
 ```
 docker build . -t mohnishanand/bma && docker push mohnishanand/bma:latest && \
 date=$(date|tr -d ' '|tr -d :) && echo $date && \
-docker tag mohnishanand/bma:latest mohnishanand/bma:$date && \
-docker push mohnishanand/bma:$date 
+docker tag mohnishanand/bma:latest mohnishanand/bma:$date && docker push mohnishanand/bma:$date 
 ```
 ## Run it locally without docker-desktop or minikube
 ```
