@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: mohnishanand/bare-minimum-api
+  repository: mohnishanand/bma
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: SunMay23172811IST2021
+  tag: SunMay23185857IST2021
 
 imagePullSecrets: []
 nameOverride: ""
