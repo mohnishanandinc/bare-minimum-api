@@ -8,7 +8,7 @@ Needs docker desktop or minikube along with nginx ingress controller.
 * Install nginx controller : https://docs.nginx.com/nginx-ingress-controller/installation/installation-with-helm/#adding-the-helm-repository
 ```
 
-## Run it locally on minikube or docker desktop.
+## Installation using Helm charts.
 ```
 git clone https://github.com/mohnishanandinc/bare-minimum-api.git && cd bare-minimum-api/charts/bma
 helm upgrade -i app . -f values.yaml -n coalationinc --debug
