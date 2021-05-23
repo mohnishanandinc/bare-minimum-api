@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/bare-minimum-api/cmd/routers"
+	"github.com/mohnishanandinc/bare-minimum-api/cmd/routers"
 	"log"
 	"net/http"
 	"sync/atomic"

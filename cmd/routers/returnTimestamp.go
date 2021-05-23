@@ -2,7 +2,7 @@ package routers
 
 import (
 	"encoding/json"
-	"github.com/bare-minimum-api/apis"
+	"github.com/mohnishanandinc/bare-minimum-api/apis"
 	"log"
 	"net/http"
 	"time"
