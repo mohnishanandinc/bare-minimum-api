@@ -1,3 +1,3 @@
 module github.com/mohnishanandinc/bare-minimum-api
 
-go 1.14
+go 1.13
